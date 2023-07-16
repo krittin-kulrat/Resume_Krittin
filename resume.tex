@@ -1,67 +1,301 @@
-\documentclass[letter,10pt]{article}
-\usepackage[utf8]{inputenc}
-\usepackage{CJKutf8}
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
 \usepackage{tabularx}
-\usepackage{array}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage[super]{nth}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
 
-%====================
-% File:         resume.tex
-% Modifying author2:       https://github.com/mengisok 
-% Last Updated: Oct 29, 2022
-% Notes:        I edited again on the version of @gobborg      
-%====================
 
-%====================
-% File:         resume.tex
-% Modifying author1:       https://github.com/gobborg 
-% Last Updated: Dec 26, 2021
-% Notes:        I just made it prettier and better suited to
-%               my needs.
-%====================
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
 
-%====================
-% File:         resume.tex
-% Original author:       https://github.com/TimmyChan 
-%               https://www.linkedin.com/in/timmy-l-chan/
-% Last Updated: Nov 19, 2021
-% Notes:        All formatting is done in TLCresume.sty
-%               No need to touch that file. 
-%               All actual content is in the sections/ folder.
-%====================
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
 
-\usepackage{TLCresume}
 
-%====================
-% CONTACT INFORMATION
-%====================
-\author{Krittin Kulrattanaruks} 
-\def\phone{(206)-349-8208}
-\def\city{Seattle}
-\def\email{krittkul@uw.edu}
-% blog edited in _header.tex
-\def\github{krittin-kulrat} % github username
-\def\LinkedIn{krittin-kulrat} % linkedin.com/in/______
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 \begin{document}
-\import{sections/}{_header}
-\vspace*{10pt}
 
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Krittin Kulrattanaruks} \\ \vspace{1pt}
+    4142, 12th ave NE apt 107, Seattle, Washington 98105 \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ (+1) 206-349-8028, (+66) 065-416-4459 ~ \href{mailto:krittin.kulrat@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{krittin.kulrat@gmail.com}}~ , \href{mailto:krittkul@uw.edu}{\raisebox{-0.2\height} ~\underline{krittkul@uw.edu}} 
+    \\ \vspace{1pt} \href{https://www.linkedin.com/in/krittin-kulrat/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/krittin-kulrat}}  ~
+    \href{https://github.com/krittin-kulrat}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/krittin-kulrat}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
 \section{Education}
-\import{sections/}{education}
-\vspace*{10pt}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Washington}{September 2022 -- March 2024 (Expected)}
+      {Master of Science in Mechanical Engineering (Data Science)}{Seattle, Washington, United States}
+      \item GPAX = 3.86, Awarded a scholarship from the Royal Thai Government for full tuition and monthly allowance
+      \item \vspace{-7pt}Relevant Coursework
+      \item \vspace{-5pt}
+      \begin{tabularx}{0.9\textwidth} { 
+         >{\raggedright\arraybackslash}X 
+         >{\raggedright\arraybackslash}X 
+         >{\raggedright\arraybackslash}X  }
+       \small $\bullet$ Fluid Turbulence & \small $\bullet$ Data-driven modeling \& control & \small $\bullet$ Parallel Computing \\
+       \small $\bullet$ Computational techniques  & \small $\bullet$ Continuum Mechanics  & \small $\bullet$ Database System  \\
+      \end{tabularx}
+      \resumeSubheading
+    {Chulalongkorn University}{August 2017 -- May 2021}
+    {Bachelor of Engineering in Mechanical Engineering}{Bangkok, Thailand}
+    \item GPAX = 3.77 (\nth{1} class honors), Rank \nth{5} in the department, Awarded a scholarship from Bank of Thailand
+    \item \vspace{-5pt}
+    \begin{tabularx}{0.9\textwidth} { 
+       >{\raggedright\arraybackslash}X 
+       >{\raggedright\arraybackslash}X 
+       >{\raggedright\arraybackslash}X  }
+     \small $\bullet$ Finite Element Method & \small $\bullet$ Compressible Fluid Dynamics & \small $\bullet$ Turbulent Shear Flows \\
+     \small $\bullet$ Intelligent System  & \small $\bullet$ Power Plant Engineering  & \small $\bullet$ Internet of Things  \\
+    \end{tabularx}
+  \resumeSubHeadingListEnd
 
-\section{Work Experience}
-\import{sections/}{experience}
-\vspace*{10pt}
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
 
-\section{Project}
-\vspace*{3pt}
-\import{sections/}{project}
-\vspace*{10pt}
+    \resumeSubheading
+      {University of Washington}{March 2023 -- June 2023}
+      {Grader, ME426 Renewable Energy II}{Seattle, Washington}
+      \resumeItemListStart
+        \resumeItem{Grading students' submission according to the given solution using Gradescope}
+        \resumeItem{Report summary and feedback of students' work}
+        \resumeItemListEnd
 
-\section{Skills}
-\vspace*{3pt}
-\import{sections/}{skills}
-\vspace*{10pt}
+    \resumeSubheading
+      {University of Washington}{January 2023 -- March 2023}
+      {Grader, ME525 Applied Acoustics I}{Seattle, Washington}
+      \resumeItemListStart
+        \resumeItem{Grading students' homework according to the given rubric and brief}
+        \resumeItem{Report overall performance of student and common mistake in homework}
+    \resumeItemListEnd
+    
+    \resumeSubheading
+      {National Metal and Material Technology center}{May 2020 -- July 2020}
+      {Intern}{Pathum Thani, Thailand}
+      \resumeItemListStart
+        \resumeItem{Conducted research project focused on laser welding simulation using COMSOL Multiphysics\textsuperscript{\textregistered}}
+        \resumeItem{Assisted with experiments conducted by the advanced engineering systems research team}
+    \resumeItemListEnd
+    
+    \resumeSubheading
+      {Chulalongkorn University}{October 2019 -- December 2021}
+      {Laser cut specialist, MI Workspace}{Bangkok, Thailand}
+      \resumeItemListStart
+        \resumeItem{Provided laser cutting service}
+        \resumeItem{Supervised usage of laser cutter}
+        \resumeItem{Managed borrowing and returning of basic mechanic equipment in the workshop}
+        \resumeItem{Taught how to use laser cutter to new user}
+    \resumeItemListEnd
+    
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Reynolds stress discrepency prediction using physics-informed machine learning} $|$ \emph{Python, COMSOL} }{June 2023}
+          \resumeItemListStart
+            \resumeItem{Simulated channel flows in RANS simulation with COMSOL Multiphysics\textsuperscript{\textregistered} using the v2-f turbulence model}
+            \resumeItem{Developed Python code in \emph{VS  Code} to download Direct Numerical Simulation (DNS) result from Johns Hopkins Turbulence database}
+            \resumeItem{Normalized physics-justified properties and used it as input parameters for machine learning model}
+            \resumeItem{Differentiate Reynolds stress between RANS simulation and DNS simulation and used it as output parameter for models}
+            \resumeItem{Split, trained, and evaluated performance of the model that use random forest regression}
+            \resumeItem{Repeat the training and testing process using multi-layer perceptron regression and compare the performance between each algorithm}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Numerical simulation of melt pool shape in laser welding} $|$ \emph{COMSOL Multiphysics\textsuperscript{\textregistered}}}{May 2021}
+          \resumeItemListStart
+            \resumeItem{Explored the possibility of multiphase simulation in laser welding process}
+            \resumeItem{Compared the simulation result with relevant laser welding research result}
+            \resumeItem{Simulated the flow in the melt pool of SS316L stainless steel using 2D multiphase simulation in COMSOL Multiphysics\textsuperscript{\textregistered}}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          \resumeProjectHeading
+          {\textbf{Face tracking \& recognition robot} $|$ \emph{Python}}{December 2020}
+          \resumeItemListStart
+            \resumeItem{Developed Python code for Raspberry Pi to detect human face}
+            \resumeItem{Controled robot using STM32 to keep the face in the middle of the camera}
+            \resumeItem{Trained machine learning model to recognize owner's face and accelerated machine learning inference speed with Google Edge TPU coprocessor.}
+            \resumeItem{Sent notification to owner's phones when detect stranger's face}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          \resumeProjectHeading
+          {\textbf{Chula Prana Emergency Ventilentor} $|$ \emph{AutoDesk: Fusion360, Laser Cutter}}{May 2020}
+          \resumeItemListStart
+            \resumeItem{Developed device attached bag valve mask to automatically squeeze the self-inflating bag}
+            \resumeItem{The device can be mass produced by laser cutter and other components can be locally purchased}
+            \resumeItem{Designed the contact surface between the device and the bag valve mask}
+            \resumeItem{Tested and improved the reliability of the emergency ventilator}
+          \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming Languages}{: Python, MATLAB \& Simulink, SQL, \LaTeX} \\
+     \textbf{Engineering Simulation Software}{: ANSYS, COMSOL Multiphysics\textsuperscript{\textregistered}}\\
+     \textbf{CAD}{: Fusion 360, SolidWorks, CATIA, AutoCAD}\\
+     \textbf{Microcontroller}{: Arduino, Raspberry Pi, STM32} \\
+     \textbf{Manufacturing}{: 3D printing, Laser cutter, Water jet cutter, Okuma CNC lathe, Mazak CNC}\\
+     \textbf{Certification}{: American Academy of Underwater Sciences (AAUS) scientific diver}
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+%-----------INVOLVEMENT---------------
+\section{Extracurricular}
+    \resumeSubHeadingListStart
+        \resumeSubheading{UW Human Powered Submarine}{Autumn 2022 -- Present}{Dive Team}{University of Washington}
+            \resumeItemListStart
+                \resumeItem{Awarded \nth{2} place for overall performance in \nth{17} International Submarine Races at Carderock, Maryland (June 2023)}
+                \resumeItem{Achieved \nth{2} place for speed in the college division in \nth{17} International Submarine Races}
+                \resumeItem{Provided support for the pilot and technical teams during underwater tests and at the competition}
+            \resumeItemListEnd
+            \resumeSubheading{CU-RoboCovid Development Team}{March 2020 -- May 2020}{Prana Emergency Ventilator team}{Chulalongkorn University}
+                \resumeItemListStart
+                    \resumeItem{Designed and developed emergency ventilator for mass production in case of ventilator shortage due to COVID-19 outbreak}
+                    \resumeItem{Helped manufacturing `Pinto' robot a delivery robot with Tele-presence system for inpatient with mild COVID-19}
+                \resumeItemListEnd
+            \resumeSubheading{CU Mechanical Engineering student committee}{December 2018 -- February 2020}{Student Engagement team and Event organizer}{Chulalongkorn University}
+            \resumeItemListStart
+                \resumeItem{Feb 2020: Organizer (PR team) in `ME night' \nth{1} Homecoming for ME CU alumni}
+                \resumeItem{Dec 2019: Chief Coordinator of Location and Logistic for \nth{2} Joint Voluntary Camp with Srisavarindhira Thai Red Cross Institute of Nursing}
+                \resumeItem{Aug 2019: Organizer (Survey and planning team) in Industry site visit and orientation camp in Rayong, Thailand}
+                \resumeItem{Aug 2019: Chief Organizer of mechanical engineering student orientation}
+                \resumeItem{Dec 2018: Participant in \nth{1} Joint Voluntary Camp with Srisavarindhira Thai Red Cross Institute of Nursing}
+            \resumeItemListEnd
+            \resumeSubheading{Annual Voluntary Engineering Student Camp}{June 2018 -- July 2020}{Participant}{Chulalongkorn University}
+                \resumeItemListStart
+                    \resumeItem{Constructing infastructure in Thai rural area}
+                    \resumeItem{Jul 2020: Constructing a restroom for elementary school in Koh Mak, Thailand}
+                    \resumeItem{Jun 2019: Constructing a large plumbing system in Surin, Thailand}
+                    \resumeItem{Jun 2018: Constructing a large plumbing system in Prachuap Khiri Khan, Thailand}
+                \resumeItemListEnd
+        
+    \resumeSubHeadingListEnd
+
 
 \end{document}
