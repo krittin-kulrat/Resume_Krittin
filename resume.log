@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.13)  15 JUL 2023 20:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.7.13)  16 JUL 2023 22:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -324,24 +324,24 @@ Package: nth 2002/02/27
 ) (C:\MikTex\tex/generic/pdftex\glyphtounicode.tex) (resume.aux)
 \openout1 = `resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 118.
-LaTeX Font Info:    ... okay on input line 118.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 117.
+LaTeX Font Info:    ... okay on input line 117.
  (C:\MikTex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count287
@@ -356,50 +356,40 @@ LaTeX Font Info:    ... okay on input line 118.
 \makeMPintoPDFobject=\count292
 \everyMPtoPDFconversion=\toks26
 )
-Package hyperref Info: Link coloring OFF on input line 118.
+Package hyperref Info: Link coloring OFF on input line 117.
  (resume.out) (resume.out)
 \@outlinefile=\write3
 \openout3 = `resume.out'.
 
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 129.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 128.
  (C:\MikTex\tex/latex/fontawesome5\ufontawesomefree2.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 129.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 128.
  (C:\MikTex\tex/latex/fontawesome5\ufontawesomefree1.fd)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 129.
+(Font)              <7> on input line 128.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 129.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 129.
+(Font)              <5> on input line 128.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 128.
  (C:\MikTex\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 130.
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 129.
  (C:\MikTex\tex/latex/fontawesome5\ufontawesomebrands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 130.
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 129.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 137.
+(Font)              using `OT1/cmr/bx/n' instead on input line 136.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 141.
+(Font)              <10.95> on input line 140.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 141.
+(Font)              <8> on input line 140.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 141.
+(Font)              <6> on input line 140.
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 213--215
-[]  
- []
-
-
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 224--226
-[]  
- []
-
-
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 232--234
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 254--256
 []  
  []
 
@@ -411,7 +401,17 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 [1
 
 {C:/Users/kritt/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/MikTex/fonts/enc/dvips/fontawesome5/fa5free2.enc}{C:/MikTex/fonts/enc/dvips/fontawesome5/fa5free1.enc}{C:/MikTex/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{C:/MikTex/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 241--243
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 263--265
+[]  
+ []
+
+
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 271--273
+[]  
+ []
+
+
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 280--282
 []  
  []
 
@@ -430,20 +430,20 @@ L3 programming layer <2023-06-30>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: 3B0F160160B47DF850A7768EB5E68F07;508.
+(rerunfilecheck)             Checksum: EE4E6E090078EC20AC0D675DE3C44BB3;508.
  ) 
 Here is how much of TeX's memory you used:
  13967 strings out of 475551
  236908 string characters out of 5778969
- 1956238 words of memory out of 5000000
+ 1955238 words of memory out of 5000000
  35009 multiletter control sequences out of 15000+600000
  566264 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,488b,699s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,13n,79p,403b,693s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/MikTex/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><C:/MikTex/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/MikTex/fonts/type1/public/cm-super/sfrm0700.pfb><C:/MikTex/fonts/type1/public/cm-super/sfti0700.pfb>
-Output written on resume.pdf (2 pages, 186764 bytes).
+Output written on resume.pdf (2 pages, 186427 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
+ 113 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

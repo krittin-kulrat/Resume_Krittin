@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1689477214 "c:/Users/kritt/OneDrive/Documents/GitHub/Resume_Krittin/resume.tex" "resume.pdf" "resume" 1689477215 0
+["pdflatex"] 1689572009 "c:/Users/kritt/OneDrive/Documents/GitHub/Resume_Krittin/resume.tex" "resume.pdf" "resume" 1689572010 0
   "C:/MikTex/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1001775420 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "C:/MikTex/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1651500229 2920 d63721872b8c77041b88e51b8f7c291d ""
   "C:/MikTex/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1651500229 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
@@ -111,10 +111,10 @@
   "C:/MikTex/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/kritt/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1689311601 296268 132998553b369d46d5e044b2d20f2987 ""
   "C:/Users/kritt/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1689296313 24102456 7f8e5b1444cafffe1d1489ddd3bda791 ""
-  "c:/Users/kritt/OneDrive/Documents/GitHub/Resume_Krittin/resume.tex" 1689477214 14409 665f26758252ab5625c3940c40b711e4 ""
-  "resume.aux" 1689477215 1177 7a9e1dfaedbef57960889db8e2d5eb00 "pdflatex"
-  "resume.out" 1689477215 508 3b0f160160b47df850a7768eb5e68f07 "pdflatex"
-  "resume.tex" 1689477214 14409 665f26758252ab5625c3940c40b711e4 ""
+  "c:/Users/kritt/OneDrive/Documents/GitHub/Resume_Krittin/resume.tex" 1689572008 15041 953e2690bc0b199b9d8760ba478944ab ""
+  "resume.aux" 1689572010 1177 bf4b22c54d3b6ce1bdacb60e1fdf36f2 "pdflatex"
+  "resume.out" 1689572010 508 ee4e6e090078ec20ac0d675de3c44bb3 "pdflatex"
+  "resume.tex" 1689572008 15041 953e2690bc0b199b9d8760ba478944ab ""
   (generated)
   "resume.aux"
   "resume.log"

@@ -191,13 +191,13 @@ INPUT C:\MikTex\fonts\tfm\public\cm\cmbx10.tfm
 INPUT C:\MikTex\fonts\tfm\public\cm\cmti10.tfm
 INPUT C:\MikTex\fonts\tfm\public\cm\cmti10.tfm
 INPUT C:\MikTex\fonts\tfm\jknappen\ec\tcrm0700.tfm
-INPUT C:\MikTex\fonts\tfm\public\cm\cmti7.tfm
-INPUT C:\MikTex\fonts\tfm\jknappen\ec\tcti0700.tfm
 INPUT C:\Users\kritt\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\MikTex\fonts\enc\dvips\fontawesome5\fa5free2.enc
 INPUT C:\MikTex\fonts\enc\dvips\fontawesome5\fa5free1.enc
 INPUT C:\MikTex\fonts\enc\dvips\fontawesome5\fa5brands0.enc
 INPUT C:\MikTex\fonts\enc\dvips\cm-super\cm-super-ts1.enc
+INPUT C:\MikTex\fonts\tfm\public\cm\cmti7.tfm
+INPUT C:\MikTex\fonts\tfm\jknappen\ec\tcti0700.tfm
 INPUT resume.aux
 INPUT .\resume.out
 INPUT .\resume.out
